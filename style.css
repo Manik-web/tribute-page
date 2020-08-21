@@ -1,3 +1,19 @@
 h1{
-    color:green;
+    color:black;
+    
+}
+
+.headerContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+    background:grey;
+    width:100%;
+    margin-top:20px;
+}
+
+.picture{
+    text-align:center;
+    display:block;
 }
