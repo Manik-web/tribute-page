@@ -12,20 +12,33 @@ h1{
     margin-top:20px;
 }
 
-.picture{
+#img-div{
     text-align:center;
     display:block;
 }
 
-.timeline{
-    display:inline-block
+#tribute-info{
+    display:inline-block;
     width:100%;
-    background: lightgoldenrodyellow;
-   
+    background: lightgoldenrodyellow;  
+}
+#tribute-info h2{
+    text-align:center;
+    padding-bottom: 50px;
 }
 
 ul{
+    position:relative;
+    left:600px;
+  
+    display:flex;
+    flex-direction:column;
+    align-content: space-between;
+   
+}
+li{
     text-align:left;
+    padding-bottom: 20px;
     
 }
 
