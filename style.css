@@ -1,13 +1,16 @@
+html{
+    background:white;
+}
+
 h1{
     color:black;
-    
 }
 
 .headerContainer{
     display:flex;
     flex-direction:column;
     align-items:center;   
-    background:rgb(202, 193, 193);
+    background:rgb(235, 228, 228);
     width:100%;
     margin-top:20px;
 }
@@ -17,6 +20,9 @@ h1{
     display:block;
 }
 #image{
+    display:block;
+    margin:auto;
+    max-width: 1000px;
     width: 100%;
     height:auto;
 }
@@ -24,7 +30,7 @@ h1{
 #tribute-info{
     display:inline-block;
     width:100%;
-    background: lightgoldenrodyellow;  
+    background: rgb(235, 228, 228);  
 }
 #tribute-info h2{
     text-align:center;
@@ -45,10 +51,10 @@ li{
     padding-bottom: 20px;
 }
 #lastitem{
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
-#tribute-link{
-    background:rgb(184, 191, 199);
+.footerContainer{
+    background:rgb(235, 228, 228);
     text-align:center;
 }
